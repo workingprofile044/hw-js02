@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.logo__container {
+    float: left;
+}
+
+.logo__link {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-image: url('your-logo-image-url');
+    background-size: cover;
+}
+
+.header__title {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.clicker__status {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.clicker__cookie {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.clicker__cookie:hover {
+    transform: scale(1.1);
+}
